@@ -9,5 +9,10 @@ module OpenProject::Themes::HundH
     def assets_path
       OpenProject::Themes::HundH.assets_path
     end
+
+    def identifier
+      @identifier ||= "hundh"
+    end
+
   end
 end
