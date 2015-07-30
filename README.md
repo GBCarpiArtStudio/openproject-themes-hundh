@@ -25,6 +25,16 @@ install
   http://[url for local open project].com/settings?tab=display
 
 
+updates
+--------
+
+* update CSS via sass in app/assets/stylesheets/hundh/* (see https://github.com/opf/openproject/blob/dev/app/assets/stylesheets/open_project_global/_variables.sass for variables)
+* update version number in lib/open_project/themes/hundh/version.rb
+* sudo openproject-ce run bundle install
+* sudo service openproject-ce stop
+* sudo openproject-ce run bundle exec rake assets:precompile RAILS_ENV=production
+* sudo service openproject-ce start
+
 
 credits
 --------
