@@ -1,7 +1,7 @@
 module OpenProject
   module Themes
-    module Shiny
-      require 'open_project/themes/shiny/engine'
+    module HundH
+      require 'open_project/themes/hundh/engine'
 
       def self.assets_path
         @assets_path ||= Engine.root.join('app/assets').to_s
